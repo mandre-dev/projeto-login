@@ -1,13 +1,66 @@
 @charset "UTF-8";
 
-/* Paleta de cores */ 
+/* Paleta de cores
 
 
-
+*/
 
 * {
 
-margin: 10px;
-padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+body, html {
+
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main {
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+section#login { /* assim pode se centralizar uma <div> :) */
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: ;
+    
+    background-color: lightskyblue;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px gray
+
+}
+
+section#login > div#img {
+    
+    display: block;
+    background: aquamarine url(../imagens/pexels.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+section#login > div#forms {
+
+    display: block ;
+    padding: 10px;
+
 
 }
