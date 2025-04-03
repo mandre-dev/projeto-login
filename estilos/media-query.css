@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+    /* Para dispositivos tablet ou com largura de tela entre 768px e 992px */
+    section#login {
+        width: 80vw; /* Aumenta a largura conforme a janela vai aumentando */
+    }
+}

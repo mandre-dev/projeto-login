@@ -36,7 +36,7 @@ section#login { /* assim pode se centralizar uma <div> :) */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: ;
+    overflow: hidden;
     
     background-color: lightskyblue;
     width: 250px;
@@ -59,8 +59,6 @@ section#login > div#img {
 
 section#login > div#forms {
 
-    display: block ;
+    display: block;
     padding: 10px;
-
-
 }
