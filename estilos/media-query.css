@@ -1,10 +1,38 @@
 @charset "UTF-8";
 
+/* Typial Device Breakpoints
+-----------------------------
 
+- Pequenas telas: até 600px 
+- Celular: 600px - 768px
+- Tablet: 768px - 992px
+- Desktop: 992px - 1200px 
+- Grandes Telas: acima de 1200px 
+
+*/
 
 @media screen and (min-width: 768px) and (max-width: 992px) { 
+
     /* Para dispositivos tablet ou com largura de tela entre 768px e 992px */
+
     section#login {
-        width: 80vw; /* Aumenta a largura conforme a janela vai aumentando */
+        
+        float: right;
+        width: 80vw; 
+        /* Aumenta a largura conforme a janela vai aumentando */
     }
+
+    section#login > div#forms {
+
+        float: right;
+    }
+
+}
+
+@media screen and (max-width: 768px) { 
+
+    section#login {
+        width: 90vw;  /* Aumentando a largura para dispositivos pequenos */
+    }
+
 }
